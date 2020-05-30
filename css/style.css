@@ -1,0 +1,78 @@
+body {
+ font-size: 16px;
+ color: #ed3102;
+ background-color:#b0ed4e; 
+font-family: 'Chelsea Market', cursive;
+}
+/* Header*/
+#header-nav {
+	background-color: #ed3102;
+	border-radius: 0;
+	border: 0;
+	color: white;
+}
+
+
+.navbar-brand p {
+	color: #E1F034;
+	font-size: 25px;
+	}
+
+.navbar-brand {
+  line-height:10px;
+  padding-top:15px;
+  padding-bottom:5px;
+  
+  }
+
+.navbar-brand small {
+  display:block;
+  color: white;
+  font-size:12px;
+}
+
+
+.navbar-brand a:focus, .navbar-brand a:hover {
+	text-decoration: none;
+}
+
+
+#nav-list a {
+	color: white;
+	text-align: center;
+}
+
+#nav-list a:hover {
+	background-color: #3DD6ED;
+}
+/* header stop */
+
+/* Section */
+#home {
+	margin-bottom: 30px;
+}
+
+.row {
+	
+	position: relative;
+	float: left;
+}
+
+.row > div > article {
+	background-color: #b1e5f2;
+	text-align: justify;
+	margin-bottom: 20px;
+	padding: 12px;
+	color: black;
+}
+
+
+
+
+
+@media (max-width: 767px) {
+	.row > div > article {
+		width: 80%;
+		margin: 20px auto 0;
+	}
+}
